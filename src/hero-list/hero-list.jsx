@@ -65,7 +65,7 @@ class HeroList extends Component {
                                         {hero.name}
                                     </span>
                                     <div className="actions">
-                                        {/* <i className="fa fa-pencil-square-o" aria-hidden="true" onClick={() => this.editHero(hero)}>Edit </i> */}
+                                        <i className="fa fa-pencil-square-o" aria-hidden="true" onClick={() => this.editHero(hero)}></i>
                                         <span className="delete fa fa-trash-o" aria-hidden="true" onClick={() => this.deleteHero(hero)}>DELETE</span>
                                     </div>
                                 </li>
