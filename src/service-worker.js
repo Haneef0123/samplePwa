@@ -68,5 +68,16 @@ self.addEventListener('message', (event) => {
     self.skipWaiting();
   }
 });
+self.addEventListener('fetch',(event)=>{
+  if(!navigator.onLine){
+    if(event.request.url === "http://localhost:3002/static/js/main.chunk.js"){
+            event.waitUntil(
+                this.registration.showNotification("Internet",{
+                    body:"No internet"
+                })
+            )
+        }
+  }
+})
 
 // Any other custom service worker logic can go here.
