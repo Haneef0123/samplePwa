@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-crapwa-dev-131736-authRole",
+      "UnauthRoleArn": "arn:aws:iam::770531323204:role/amplify-crapwa-dev-131736-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::770531323204:role/amplify-crapwa-dev-131736-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-crapwa-dev-131736-deployment",
+      "UnauthRoleName": "amplify-crapwa-dev-131736-unauthRole",
+      "StackName": "amplify-crapwa-dev-131736",
+      "StackId": "arn:aws:cloudformation:ap-south-1:770531323204:stack/amplify-crapwa-dev-131736/7e913960-33d5-11ec-8747-0607f6edf438",
+      "AmplifyAppId": "d1kaa9jv5mivih"
+    }
+  }
+}
